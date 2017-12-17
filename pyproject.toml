@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "apparatus"
+version = "0.0.2"
+description = "the technical equipment or machinery needed for a particular activity or purpose"
+authors = ["Grzegorz Zebrowski <grzegorz.zebrowski@thrust.pl>"]
+
+[tool.poetry.dependencies]
+python = "^3.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.5"
+[[tool.poetry.source]]
+name = "xav"
+url = "http://44.0.0.181:8080/"
