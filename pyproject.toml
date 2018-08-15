@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "apparatus"
-version = "0.0.2"
+version = "0.0.3"
 description = "the technical equipment or machinery needed for a particular activity or purpose"
 authors = ["Grzegorz Zebrowski <grzegorz.zebrowski@thrust.pl>"]
 

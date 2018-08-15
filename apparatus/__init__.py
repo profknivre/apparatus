@@ -90,3 +90,10 @@ def get_my_ip(talking_to="8.8.8.8"):
     ret = s.getsockname()[0]
     s.close()
     return ret
+
+
+def valmap(value, istart, istop, ostart, ostop):
+    """
+    arduino like map function
+    """
+    return ostart + (ostop - ostart) * ((value - istart) / (istop - istart))
